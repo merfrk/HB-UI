@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet var searchView: UIView!
     @IBOutlet var konumView: UIView!
     @IBOutlet var hepsiPayView: UIView!
+    @IBOutlet var topLogoImageView: UIImageView!
     
     @IBOutlet var premiumImageView: UIImageView!
     @IBOutlet var okulImageView: UIImageView!
@@ -33,8 +34,12 @@ class ViewController: UIViewController {
         searchView.layer.borderColor = UIColor.lightGray.cgColor
         searchView.layer.cornerRadius = 8
         
-        konumView.layer.cornerRadius = 8
-        hepsiPayView.layer.cornerRadius = 8
+        topLogoImageView.layer.borderWidth = 0.5
+        topLogoImageView.layer.borderColor = UIColor.lightGray.cgColor
+        topLogoImageView.layer.cornerRadius = 8
+        
+        konumView.layer.cornerRadius = 12
+        hepsiPayView.layer.cornerRadius = 12
         
         premiumImageView.layer.cornerRadius = 10
         okulImageView.layer.cornerRadius = 10

@@ -28,7 +28,7 @@
                                         </constraints>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kwh-eI-YqU">
-                                        <rect key="frame" x="55" y="0.0" width="279" height="50"/>
+                                        <rect key="frame" x="60" y="0.0" width="274" height="50"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="magnifyingglass" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="2du-uL-ExZ">
                                                 <rect key="frame" x="5" y="10.5" width="30" height="28.5"/>
@@ -39,13 +39,13 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ürün, kategori veya marka ara" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wV-0F-DMR">
-                                                <rect key="frame" x="40" y="0.0" width="199" height="50"/>
+                                                <rect key="frame" x="40" y="0.0" width="194" height="50"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="9d8-Kt-hec">
-                                                <rect key="frame" x="244" y="10.5" width="30" height="28"/>
+                                                <rect key="frame" x="239" y="10.5" width="30" height="28"/>
                                                 <color key="tintColor" name="symbolColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="AGL-5a-a4X"/>
@@ -85,7 +85,7 @@
                                     <constraint firstAttribute="trailing" secondItem="FHe-pa-8BR" secondAttribute="trailing" id="6YU-Nm-UKh"/>
                                     <constraint firstItem="FHe-pa-8BR" firstAttribute="top" secondItem="xhq-K3-HW2" secondAttribute="top" id="AYh-Bg-DJn"/>
                                     <constraint firstItem="YjY-FE-asw" firstAttribute="leading" secondItem="kwh-eI-YqU" secondAttribute="trailing" constant="5" id="Byq-oB-kCi"/>
-                                    <constraint firstItem="kwh-eI-YqU" firstAttribute="leading" secondItem="h4k-Bh-nop" secondAttribute="trailing" constant="5" id="CQP-Yc-hm3"/>
+                                    <constraint firstItem="kwh-eI-YqU" firstAttribute="leading" secondItem="h4k-Bh-nop" secondAttribute="trailing" constant="10" id="CQP-Yc-hm3"/>
                                     <constraint firstAttribute="height" constant="50" id="Dss-lS-7dL"/>
                                     <constraint firstItem="FHe-pa-8BR" firstAttribute="leading" secondItem="YjY-FE-asw" secondAttribute="trailing" constant="5" id="EmN-DJ-8Je"/>
                                     <constraint firstAttribute="bottom" secondItem="YjY-FE-asw" secondAttribute="bottom" id="Fxt-EB-cKr"/>
@@ -306,13 +306,13 @@
                                 </constraints>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hepsiburada-1" translatesAutoresizingMaskIntoConstraints="NO" id="jTp-9Q-Qun">
-                                <rect key="frame" x="20" y="350" width="374" height="120"/>
+                                <rect key="frame" x="20" y="350" width="374" height="160"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="Ppw-Cv-d10"/>
+                                    <constraint firstAttribute="height" constant="160" id="Ppw-Cv-d10"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Süper Fiyat, Süper Teklif" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRL-rf-N7z">
-                                <rect key="frame" x="33" y="486" width="260.33333333333331" height="22"/>
+                                <rect key="frame" x="33" y="526" width="260.33333333333331" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="32Z-wc-uld"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="260" id="q2a-Iv-UDu"/>
@@ -322,13 +322,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Tümü &gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txh-ax-4Nq">
-                                <rect key="frame" x="343.66666666666674" y="488" width="50.333333333333314" height="17"/>
+                                <rect key="frame" x="343.66666666666674" y="528" width="50.333333333333314" height="17"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                 <color key="textColor" name="hbturuncu"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O0b-Yy-X6I">
-                                <rect key="frame" x="0.0" y="524" width="414" height="289"/>
+                                <rect key="frame" x="0.0" y="564" width="414" height="249"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ad4-PD-i27">
                                         <rect key="frame" x="0.0" y="0.0" width="702" height="284"/>
@@ -351,12 +351,12 @@
                                                         <color key="textColor" name="hbturuncu"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vestel 43U9500 43&quot; " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jh3-4T-fZG">
-                                                        <rect key="frame" x="10" y="204" width="120" height="20"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vestel 43U9500 43&quot; 108 Ekran Uydu Alıcı... " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jh3-4T-fZG">
+                                                        <rect key="frame" x="10" y="204" width="120" height="40"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="20" id="O6K-J5-2zL"/>
+                                                            <constraint firstAttribute="height" constant="40" id="O6K-J5-2zL"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                         <color key="textColor" name="yazi"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -376,7 +376,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oMl-Tg-2W4">
-                                                <rect key="frame" x="166" y="0.0" width="140" height="284"/>
+                                                <rect key="frame" x="176" y="0.0" width="140" height="284"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="krem" translatesAutoresizingMaskIntoConstraints="NO" id="3Tb-TD-QwI">
                                                         <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
@@ -393,12 +393,12 @@
                                                         <color key="textColor" name="hbturuncu"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vaseline Vücut Losyonu Temel Onarım" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNj-9g-MHr">
-                                                        <rect key="frame" x="10" y="204" width="120" height="20"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vaseline Vücut Losyonu Temel Onarım" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNj-9g-MHr">
+                                                        <rect key="frame" x="10" y="204" width="120" height="40"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="20" id="Vih-gy-JKg"/>
+                                                            <constraint firstAttribute="height" constant="40" id="Vih-gy-JKg"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                         <color key="textColor" name="yazi"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -418,7 +418,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7o9-sp-bzw">
-                                                <rect key="frame" x="316" y="0.0" width="140" height="284"/>
+                                                <rect key="frame" x="336" y="0.0" width="140" height="284"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="telefon" translatesAutoresizingMaskIntoConstraints="NO" id="2li-R0-JhD">
                                                         <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
@@ -435,12 +435,12 @@
                                                         <color key="textColor" name="hbturuncu"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Xiaomi Redmi 9 64 GB Cep Telefonu" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SnA-21-gV7">
-                                                        <rect key="frame" x="10" y="204" width="120" height="20"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Xiaomi Redmi 9 64 GB Cep Telefonu" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SnA-21-gV7">
+                                                        <rect key="frame" x="10" y="204" width="120" height="40"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="20" id="wKJ-MK-LgP"/>
+                                                            <constraint firstAttribute="height" constant="40" id="wKJ-MK-LgP"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                         <color key="textColor" name="yazi"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -462,14 +462,14 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="oMl-Tg-2W4" firstAttribute="leading" secondItem="3Cr-DL-Bdb" secondAttribute="trailing" constant="10" id="9kW-lt-yxE"/>
+                                            <constraint firstItem="oMl-Tg-2W4" firstAttribute="leading" secondItem="3Cr-DL-Bdb" secondAttribute="trailing" constant="20" id="9kW-lt-yxE"/>
                                             <constraint firstItem="7o9-sp-bzw" firstAttribute="top" secondItem="ad4-PD-i27" secondAttribute="top" id="CWT-Ws-glT"/>
                                             <constraint firstItem="3Cr-DL-Bdb" firstAttribute="leading" secondItem="ad4-PD-i27" secondAttribute="leading" constant="16" id="Gjs-7s-NDZ"/>
                                             <constraint firstItem="3Cr-DL-Bdb" firstAttribute="top" secondItem="ad4-PD-i27" secondAttribute="top" id="MnO-kr-L8B"/>
                                             <constraint firstAttribute="bottom" secondItem="3Cr-DL-Bdb" secondAttribute="bottom" id="N5Z-Ty-YmT"/>
                                             <constraint firstAttribute="bottom" secondItem="7o9-sp-bzw" secondAttribute="bottom" id="SYK-df-8CI"/>
                                             <constraint firstItem="oMl-Tg-2W4" firstAttribute="top" secondItem="ad4-PD-i27" secondAttribute="top" id="ZIH-RZ-8fp"/>
-                                            <constraint firstItem="7o9-sp-bzw" firstAttribute="leading" secondItem="oMl-Tg-2W4" secondAttribute="trailing" constant="10" id="bOS-aT-UXf"/>
+                                            <constraint firstItem="7o9-sp-bzw" firstAttribute="leading" secondItem="oMl-Tg-2W4" secondAttribute="trailing" constant="20" id="bOS-aT-UXf"/>
                                             <constraint firstAttribute="width" constant="702" id="keB-8s-e3r"/>
                                             <constraint firstAttribute="height" constant="284" id="phs-WR-q4p"/>
                                             <constraint firstAttribute="bottom" secondItem="oMl-Tg-2W4" secondAttribute="bottom" id="zPO-V1-MLF"/>
@@ -487,6 +487,13 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="pUA-Ff-Wzd"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="cK6-J3-ymJ"/>
                             </scrollView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hblogo" translatesAutoresizingMaskIntoConstraints="NO" id="EN4-dQ-Mw5">
+                                <rect key="frame" x="355" y="816" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="3b1-Kr-ddU"/>
+                                    <constraint firstAttribute="width" constant="44" id="P4N-Hj-vHy"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -498,9 +505,11 @@
                             <constraint firstItem="BRL-rf-N7z" firstAttribute="top" secondItem="jTp-9Q-Qun" secondAttribute="bottom" constant="16" id="82r-rx-9zB"/>
                             <constraint firstItem="txh-ax-4Nq" firstAttribute="top" secondItem="jTp-9Q-Qun" secondAttribute="bottom" constant="18" id="AV5-ls-ggK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="txh-ax-4Nq" secondAttribute="trailing" constant="20" id="Fbe-HA-y29"/>
+                            <constraint firstAttribute="bottom" secondItem="EN4-dQ-Mw5" secondAttribute="bottom" constant="36" id="Fgx-BX-F3Z"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VMi-kr-nkx" secondAttribute="trailing" constant="10" id="FwJ-Gr-XuI"/>
                             <constraint firstItem="txh-ax-4Nq" firstAttribute="leading" secondItem="BRL-rf-N7z" secondAttribute="trailing" constant="50.5" id="Gcg-Fj-Lzc"/>
                             <constraint firstItem="GSD-NQ-KI1" firstAttribute="top" secondItem="xhq-K3-HW2" secondAttribute="bottom" constant="6" id="LEZ-ae-SgD"/>
+                            <constraint firstAttribute="trailing" secondItem="EN4-dQ-Mw5" secondAttribute="trailing" constant="15" id="Qd4-8x-jxi"/>
                             <constraint firstItem="O0b-Yy-X6I" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Usy-Me-XnP"/>
                             <constraint firstItem="jTp-9Q-Qun" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="XRg-bL-nY3"/>
                             <constraint firstItem="O0b-Yy-X6I" firstAttribute="top" secondItem="BRL-rf-N7z" secondAttribute="bottom" constant="16" id="YZx-hO-WDs"/>
@@ -533,6 +542,7 @@
                         <outlet property="searchView" destination="kwh-eI-YqU" id="FGt-oe-9Qq"/>
                         <outlet property="tekImageView" destination="hVe-Lh-fGb" id="rrC-nV-Ksv"/>
                         <outlet property="telefonImageView" destination="2li-R0-JhD" id="9D2-vi-ess"/>
+                        <outlet property="topLogoImageView" destination="h4k-Bh-nop" id="k1J-IR-cTL"/>
                         <outlet property="tvImageView" destination="min-Zr-lik" id="TOd-71-lWu"/>
                         <outlet property="vaselineImageView" destination="3Tb-TD-QwI" id="Opk-ho-tfK"/>
                     </connections>
