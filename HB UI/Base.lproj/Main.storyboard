@@ -97,18 +97,277 @@
                                     <constraint firstItem="h4k-Bh-nop" firstAttribute="top" secondItem="xhq-K3-HW2" secondAttribute="top" id="pjv-1S-evP"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GSD-NQ-KI1">
+                                <rect key="frame" x="8" y="100" width="269" height="40"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location" translatesAutoresizingMaskIntoConstraints="NO" id="q82-7d-HOd">
+                                        <rect key="frame" x="4" y="12.5" width="15" height="15"/>
+                                        <color key="tintColor" name="symbolColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="15" id="3tf-bL-Sl7"/>
+                                            <constraint firstAttribute="width" constant="15" id="x9I-6m-VoX"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lütfen konum seçin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJw-6J-B8T">
+                                        <rect key="frame" x="26" y="0.0" width="243" height="40"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <color key="textColor" name="konumyazi"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="viewBsckground"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="XJw-6J-B8T" secondAttribute="trailing" id="7ME-EU-0Vp"/>
+                                    <constraint firstAttribute="width" constant="269" id="8zc-0U-ivU"/>
+                                    <constraint firstItem="XJw-6J-B8T" firstAttribute="top" secondItem="GSD-NQ-KI1" secondAttribute="top" id="Ctx-90-nXe"/>
+                                    <constraint firstAttribute="height" constant="40" id="FjT-Qx-JWs"/>
+                                    <constraint firstItem="q82-7d-HOd" firstAttribute="centerY" secondItem="GSD-NQ-KI1" secondAttribute="centerY" id="GxD-xJ-IpD"/>
+                                    <constraint firstItem="XJw-6J-B8T" firstAttribute="leading" secondItem="q82-7d-HOd" secondAttribute="trailing" constant="7" id="RD9-Tb-GMW"/>
+                                    <constraint firstAttribute="bottom" secondItem="XJw-6J-B8T" secondAttribute="bottom" id="STU-AR-EEs"/>
+                                    <constraint firstItem="q82-7d-HOd" firstAttribute="leading" secondItem="GSD-NQ-KI1" secondAttribute="leading" constant="4" id="mbq-V6-L5p"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CVo-Rv-KXd">
+                                <rect key="frame" x="285" y="100" width="121" height="40"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hepsipayedit" translatesAutoresizingMaskIntoConstraints="NO" id="1S8-za-vDW">
+                                        <rect key="frame" x="5" y="0.0" width="111" height="40"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" name="viewBsckground"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="1S8-za-vDW" secondAttribute="trailing" constant="5" id="0sD-vl-Ftv"/>
+                                    <constraint firstItem="1S8-za-vDW" firstAttribute="leading" secondItem="CVo-Rv-KXd" secondAttribute="leading" constant="5" id="i2e-dJ-IeI"/>
+                                    <constraint firstAttribute="bottom" secondItem="1S8-za-vDW" secondAttribute="bottom" id="lNm-Kt-MAD"/>
+                                    <constraint firstAttribute="height" constant="40" id="tVJ-QD-SOB"/>
+                                    <constraint firstItem="1S8-za-vDW" firstAttribute="top" secondItem="CVo-Rv-KXd" secondAttribute="top" id="ukD-HJ-lib"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="VMi-kr-nkx">
+                                <rect key="frame" x="10" y="156" width="394" height="130"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="VxP-Bw-72J">
+                                        <rect key="frame" x="0.0" y="0.0" width="74" height="130"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="annecocuk" translatesAutoresizingMaskIntoConstraints="NO" id="bBM-Ui-jsz">
+                                                <rect key="frame" x="0.0" y="0.0" width="74" height="65"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anne Çocuk" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGY-v4-WFZ">
+                                                <rect key="frame" x="0.0" y="65" width="74" height="65"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                                <color key="textColor" name="yazi"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ta1-Kh-9Wa">
+                                        <rect key="frame" x="80" y="0.0" width="74" height="130"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teknolojitutkunlari" translatesAutoresizingMaskIntoConstraints="NO" id="hVe-Lh-fGb">
+                                                <rect key="frame" x="0.0" y="0.0" width="74" height="65"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teknoloji Tutkunları" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49N-0L-GCa">
+                                                <rect key="frame" x="0.0" y="65" width="74" height="65"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                                <color key="textColor" name="yazi"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="dPj-bn-IBq">
+                                        <rect key="frame" x="160" y="0.0" width="74" height="130"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="modadunyasi" translatesAutoresizingMaskIntoConstraints="NO" id="pG4-7e-XSj">
+                                                <rect key="frame" x="0.0" y="0.0" width="74" height="65"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moda Dünyası" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rMs-er-uVb">
+                                                <rect key="frame" x="0.0" y="65" width="74" height="65"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                                <color key="textColor" name="yazi"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="QDm-Rn-qMi">
+                                        <rect key="frame" x="240" y="0.0" width="74" height="130"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="okulalisverisi" translatesAutoresizingMaskIntoConstraints="NO" id="f1q-2k-cKs">
+                                                <rect key="frame" x="0.0" y="0.0" width="74" height="65"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Okul Alışverişi" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CeL-tg-iEY">
+                                                <rect key="frame" x="0.0" y="65" width="74" height="65"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                                <color key="textColor" name="yazi"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cm9-6h-rje">
+                                        <rect key="frame" x="320" y="0.0" width="74" height="130"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hepsiburadapremium" translatesAutoresizingMaskIntoConstraints="NO" id="NZf-ol-AWL">
+                                                <rect key="frame" x="0.0" y="0.0" width="74" height="65"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Premium'a Geç" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lhl-cu-4d1">
+                                                <rect key="frame" x="0.0" y="65" width="74" height="65"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                                <color key="textColor" name="yazi"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="5EZ-WY-NpN"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ig9-Bg-Gh7">
+                                <rect key="frame" x="8" y="292" width="398" height="50"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pap-Qi-3lv">
+                                        <rect key="frame" x="0.0" y="0.0" width="194" height="50"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="Ghu-mO-Lj1">
+                                                <rect key="frame" x="8" y="8" width="25" height="25"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="25" id="406-O1-Hgq"/>
+                                                    <constraint firstAttribute="width" constant="25" id="Aug-Wm-5mM"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="tB7-sd-MUA">
+                                                <rect key="frame" x="41" y="6" width="153" height="38"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SANA ÖZEL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X2M-4d-IN4">
+                                                        <rect key="frame" x="0.0" y="0.0" width="153" height="19"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                        <color key="textColor" name="hbturuncu"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fırsatlar seni bekliyor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0BY-bO-ah2">
+                                                        <rect key="frame" x="0.0" y="19" width="153" height="19"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <color key="textColor" name="yazi"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="Ghu-mO-Lj1" firstAttribute="leading" secondItem="Pap-Qi-3lv" secondAttribute="leading" constant="8" id="5K3-ch-FLb"/>
+                                            <constraint firstItem="tB7-sd-MUA" firstAttribute="leading" secondItem="Ghu-mO-Lj1" secondAttribute="trailing" constant="8" id="8BR-hy-wFF"/>
+                                            <constraint firstAttribute="bottom" secondItem="tB7-sd-MUA" secondAttribute="bottom" constant="6" id="ABF-FC-RA5"/>
+                                            <constraint firstItem="tB7-sd-MUA" firstAttribute="top" secondItem="Pap-Qi-3lv" secondAttribute="top" constant="6" id="PYk-yn-SAy"/>
+                                            <constraint firstAttribute="trailing" secondItem="tB7-sd-MUA" secondAttribute="trailing" id="iaM-E7-Ihy"/>
+                                            <constraint firstItem="Ghu-mO-Lj1" firstAttribute="top" secondItem="Pap-Qi-3lv" secondAttribute="top" constant="8" id="tbb-fA-fC0"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZlR-SL-t4H">
+                                        <rect key="frame" x="204" y="0.0" width="194" height="50"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="percentage" translatesAutoresizingMaskIntoConstraints="NO" id="XEI-mq-Srw">
+                                                <rect key="frame" x="8" y="8" width="25" height="25"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="25" id="Hqn-WY-kFb"/>
+                                                    <constraint firstAttribute="height" constant="25" id="hg0-2e-DjS"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="z8d-jE-59u">
+                                                <rect key="frame" x="41" y="6" width="153" height="38"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4x4 İNDİRİM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TqS-g1-1qk">
+                                                        <rect key="frame" x="0.0" y="0.0" width="153" height="19"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                        <color key="textColor" name="hbturuncu"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16 kampanya var" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFi-JK-ZHa">
+                                                        <rect key="frame" x="0.0" y="19" width="153" height="19"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <color key="textColor" name="yazi"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="XEI-mq-Srw" firstAttribute="leading" secondItem="ZlR-SL-t4H" secondAttribute="leading" constant="8" id="63J-K9-yZd"/>
+                                            <constraint firstItem="XEI-mq-Srw" firstAttribute="top" secondItem="ZlR-SL-t4H" secondAttribute="top" constant="8" id="RBc-SD-Mth"/>
+                                            <constraint firstAttribute="trailing" secondItem="z8d-jE-59u" secondAttribute="trailing" id="YQe-A2-CXT"/>
+                                            <constraint firstItem="z8d-jE-59u" firstAttribute="top" secondItem="ZlR-SL-t4H" secondAttribute="top" constant="6" id="ZWS-cr-Fp3"/>
+                                            <constraint firstItem="z8d-jE-59u" firstAttribute="leading" secondItem="XEI-mq-Srw" secondAttribute="trailing" constant="8" id="cRp-4L-uWv"/>
+                                            <constraint firstAttribute="bottom" secondItem="z8d-jE-59u" secondAttribute="bottom" constant="6" id="y0s-QX-3IQ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="2Qd-F5-3QR"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hepsiburada-1" translatesAutoresizingMaskIntoConstraints="NO" id="jTp-9Q-Qun">
+                                <rect key="frame" x="20" y="350" width="374" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="Ppw-Cv-d10"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Süper Fiyat, Süper Teklif" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRL-rf-N7z">
+                                <rect key="frame" x="33" y="486" width="260" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="32Z-wc-uld"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="260" id="q2a-Iv-UDu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" name="yazi78"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tümü &gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txh-ax-4Nq">
+                                <rect key="frame" x="343.5" y="488" width="50.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" name="hbturuncu"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ig9-Bg-Gh7" secondAttribute="trailing" constant="8" id="57Y-P9-C5d"/>
                             <constraint firstItem="xhq-K3-HW2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="5GS-EU-V1h"/>
+                            <constraint firstItem="ig9-Bg-Gh7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="67B-at-pRH"/>
+                            <constraint firstItem="CVo-Rv-KXd" firstAttribute="leading" secondItem="GSD-NQ-KI1" secondAttribute="trailing" constant="8" id="7X3-2g-PJw"/>
+                            <constraint firstItem="BRL-rf-N7z" firstAttribute="top" secondItem="jTp-9Q-Qun" secondAttribute="bottom" constant="16" id="82r-rx-9zB"/>
+                            <constraint firstItem="txh-ax-4Nq" firstAttribute="top" secondItem="jTp-9Q-Qun" secondAttribute="bottom" constant="18" id="AV5-ls-ggK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="txh-ax-4Nq" secondAttribute="trailing" constant="20" id="Fbe-HA-y29"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VMi-kr-nkx" secondAttribute="trailing" constant="10" id="FwJ-Gr-XuI"/>
+                            <constraint firstItem="txh-ax-4Nq" firstAttribute="leading" secondItem="BRL-rf-N7z" secondAttribute="trailing" constant="50.5" id="Gcg-Fj-Lzc"/>
+                            <constraint firstItem="GSD-NQ-KI1" firstAttribute="top" secondItem="xhq-K3-HW2" secondAttribute="bottom" constant="6" id="LEZ-ae-SgD"/>
+                            <constraint firstItem="jTp-9Q-Qun" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="XRg-bL-nY3"/>
+                            <constraint firstItem="CVo-Rv-KXd" firstAttribute="top" secondItem="xhq-K3-HW2" secondAttribute="bottom" constant="6" id="aDq-d0-lps"/>
+                            <constraint firstItem="jTp-9Q-Qun" firstAttribute="top" secondItem="ig9-Bg-Gh7" secondAttribute="bottom" constant="8" id="dJn-aK-3QE"/>
                             <constraint firstItem="xhq-K3-HW2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="i9c-Lg-KCM"/>
+                            <constraint firstItem="BRL-rf-N7z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="iAm-NB-6y2"/>
+                            <constraint firstItem="VMi-kr-nkx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="lX2-YG-O8U"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xhq-K3-HW2" secondAttribute="trailing" constant="5" id="lxF-H6-0Ng"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CVo-Rv-KXd" secondAttribute="trailing" constant="8" id="nan-mo-Z26"/>
+                            <constraint firstItem="GSD-NQ-KI1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="rAk-Ld-bhY"/>
+                            <constraint firstItem="ig9-Bg-Gh7" firstAttribute="top" secondItem="VMi-kr-nkx" secondAttribute="bottom" constant="6" id="sQW-yC-nXI"/>
+                            <constraint firstItem="VMi-kr-nkx" firstAttribute="top" secondItem="GSD-NQ-KI1" secondAttribute="bottom" constant="16" id="uiM-Pk-ikM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jTp-9Q-Qun" secondAttribute="trailing" constant="20" id="uxl-hy-AQr"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Anasayfam" image="house.fill" catalog="system" id="vui-SE-Lma"/>
                     <connections>
+                        <outlet property="anneImageView" destination="bBM-Ui-jsz" id="kbb-9p-Qfd"/>
+                        <outlet property="fırsatView" destination="ZlR-SL-t4H" id="Sip-yz-3KA"/>
+                        <outlet property="hepsiPayView" destination="CVo-Rv-KXd" id="fMj-gA-dF1"/>
+                        <outlet property="indirimView" destination="Pap-Qi-3lv" id="XiK-kn-NVL"/>
+                        <outlet property="konumView" destination="GSD-NQ-KI1" id="lKo-7e-teQ"/>
+                        <outlet property="modeImageView" destination="pG4-7e-XSj" id="AyQ-z5-USR"/>
+                        <outlet property="okulImageView" destination="f1q-2k-cKs" id="9AE-nx-qMz"/>
+                        <outlet property="premiumImageView" destination="NZf-ol-AWL" id="mdf-Gv-ScZ"/>
+                        <outlet property="reklamImageView" destination="jTp-9Q-Qun" id="h0h-fU-l5v"/>
                         <outlet property="searchView" destination="kwh-eI-YqU" id="FGt-oe-9Qq"/>
+                        <outlet property="tekImageView" destination="hVe-Lh-fGb" id="rrC-nV-Ksv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -142,7 +401,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
-                                <color key="value" systemColor="systemOrangeColor"/>
+                                <color key="value" name="hbturuncu"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </tabBar>
@@ -151,7 +410,7 @@
                         <segue destination="tSM-Kn-z7A" kind="relationship" relationship="viewControllers" id="dMd-Ku-77B"/>
                         <segue destination="d0c-DL-i4C" kind="relationship" relationship="viewControllers" id="Pai-Dp-Via"/>
                         <segue destination="uRq-Bc-HOh" kind="relationship" relationship="viewControllers" id="dtu-pu-Vli"/>
-                        <segue destination="jIe-Zb-X1y" kind="relationship" relationship="viewControllers" id="hEc-gE-KCm"/>
+                        <segue destination="Sh5-HW-Veb" kind="relationship" relationship="viewControllers" id="SIX-cB-0X1"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tnz-Zc-HAj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -190,41 +449,63 @@
             </objects>
             <point key="canvasLocation" x="1246" y="900"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Tsw-y5-NZg">
+        <!--Item-->
+        <scene sceneID="HlZ-yV-9Dp">
             <objects>
-                <viewController id="jIe-Zb-X1y" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zzf-La-Ovg">
+                <viewController id="Sh5-HW-Veb" customClass="LogoViewController" customModule="HB_UI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mtn-ct-7NL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="HaL-2a-iXL"/>
+                        <viewLayoutGuide key="safeArea" id="PJV-E3-HKf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="hblogo" landscapeImage="hblogo" largeContentSizeImage="hblogo" id="LHS-DP-UQi"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="Uit-fF-FfD"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QZC-LA-iUn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vDo-Yw-N7V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2020" y="900"/>
+            <point key="canvasLocation" x="2222" y="877"/>
         </scene>
     </scenes>
     <resources>
+        <image name="annecocuk" width="1200" height="800"/>
         <image name="bell" catalog="system" width="128" height="124"/>
         <image name="camera" catalog="system" width="128" height="94"/>
         <image name="cart" catalog="system" width="128" height="102"/>
         <image name="circle.grid.2x2" catalog="system" width="128" height="112"/>
-        <image name="hblogo" width="25" height="25"/>
+        <image name="diamond" width="32" height="32"/>
+        <image name="hblogo" width="170.5" height="170.5"/>
         <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="hepsiburada-1" width="680" height="356"/>
+        <image name="hepsiburadapremium" width="1280" height="720"/>
+        <image name="hepsipayedit" width="536" height="154"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="location" width="24" height="24"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="modadunyasi" width="680" height="453"/>
+        <image name="okulalisverisi" width="864" height="485"/>
+        <image name="percentage" width="32" height="32"/>
         <image name="person.circle" catalog="system" width="128" height="121"/>
+        <image name="teknolojitutkunlari" width="1023" height="683"/>
+        <namedColor name="hbturuncu">
+            <color red="0.92549019607843142" green="0.41568627450980389" blue="0.1764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="konumyazi">
+            <color red="0.31400001049041748" green="0.31000000238418579" blue="0.31400001049041748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="symbolColor">
             <color red="0.35699999332427979" green="0.3529999852180481" blue="0.35699999332427979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <namedColor name="viewBsckground">
+            <color red="0.96899998188018799" green="0.9649999737739563" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yazi">
+            <color red="0.25099998712539673" green="0.24699999392032623" blue="0.25099998712539673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yazi78">
+            <color red="0.30588235294117649" green="0.30588235294117649" blue="0.30588235294117649" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
