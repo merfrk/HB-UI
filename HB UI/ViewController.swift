@@ -23,6 +23,9 @@ class ViewController: UIViewController {
     @IBOutlet var fırsatView: UIView!
     @IBOutlet var reklamImageView: UIImageView!
     
+    @IBOutlet var tvImageView: UIImageView!
+    @IBOutlet var vaselineImageView: UIImageView!
+    @IBOutlet var telefonImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,8 +48,19 @@ class ViewController: UIViewController {
         fırsatView.layer.borderWidth = 1.1
         indirimView.layer.borderColor = UIColor(named: "hborange")?.cgColor
         fırsatView.layer.borderColor = UIColor(named: "hborange")?.cgColor
-        
         reklamImageView.layer.cornerRadius = 10
+        
+        tvImageView.layer.cornerRadius = 10
+        tvImageView.layer.borderWidth = 0.5
+        tvImageView.layer.borderColor = UIColor.lightGray.cgColor
+        
+        vaselineImageView.layer.cornerRadius = 10
+        vaselineImageView.layer.borderWidth = 0.5
+        vaselineImageView.layer.borderColor = UIColor.lightGray.cgColor
+        
+        telefonImageView.layer.cornerRadius = 10
+        telefonImageView.layer.borderWidth = 0.5
+        telefonImageView.layer.borderColor = UIColor.lightGray.cgColor
         
         
         
